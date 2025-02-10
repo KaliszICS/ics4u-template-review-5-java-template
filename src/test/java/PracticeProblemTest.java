@@ -217,7 +217,7 @@ public class PracticeProblemTest {
    }
 
    @Test
-   public void q5_2()
+   public void q5_6()
    {
       InputStream originalIn = System.in;
       String data = "1\n1\n1";
@@ -497,7 +497,7 @@ public class PracticeProblemTest {
    }
 
    @Test
-   public void q12_1()
+   public void q12_2()
    {
       InputStream originalIn = System.in;
       String data = "hand";
@@ -511,7 +511,7 @@ public class PracticeProblemTest {
    }
 
    @Test
-   public void q12_1()
+   public void q12_3()
    {
       InputStream originalIn = System.in;
       String data = "There is no spoon";
