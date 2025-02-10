@@ -87,7 +87,7 @@ public class PracticeProblemTest {
       PracticeProblem.q3();
 
       // assertion
-      assertEquals("Input a number: 3.0\n", bos.toString());
+      assertEquals("Input a number: 3\n", bos.toString());
    }
 
    @Test
@@ -101,7 +101,7 @@ public class PracticeProblemTest {
       PracticeProblem.q3();
 
       // assertion
-      assertEquals("Input a number: 2.0\n", bos.toString());
+      assertEquals("Input a number: 2\n", bos.toString());
    }
 
    @Test
@@ -115,7 +115,7 @@ public class PracticeProblemTest {
       PracticeProblem.q3();
 
       // assertion
-      assertEquals("Input a number: 3.0\n", bos.toString());
+      assertEquals("Input a number: 3\n", bos.toString());
    }
 
    @Test
@@ -157,7 +157,7 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("Input a number: Input another number: Input one more number: 2.0\n", bos.toString());
+      assertEquals("Input a number: Input another number: Input one more number: 2.0\n4.0\n", bos.toString());
    }
 
    @Test
@@ -171,7 +171,7 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("Input a number: Input another number: Input one more number: 2.0\n4\n", bos.toString());
+      assertEquals("Input a number: Input another number: Input one more number: 2.0\n4.0\n", bos.toString());
    }
 
    @Test
@@ -185,7 +185,7 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("Input a number: Input another number: Input one more number: -2.0\n3\n", bos.toString());
+      assertEquals("Input a number: Input another number: Input one more number: -2.0\n3.0\n", bos.toString());
    }
 
    @Test
@@ -199,7 +199,7 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("Input a number: Input another number: Input one more number: -3.0\n4\n", bos.toString());
+      assertEquals("Input a number: Input another number: Input one more number: -3.0\n4.0\n", bos.toString());
    }
 
    @Test
@@ -213,7 +213,7 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("Input a number: Input another number: Input one more number: 0.0\n2\n", bos.toString());
+      assertEquals("Input a number: Input another number: Input one more number: 0.0\n2.0\n", bos.toString());
    }
 
    @Test
