@@ -4,6 +4,11 @@ import java.io.*;
 
 public class PracticeProblemTest {
 
+   InputStream originalIn = System.in;
+   PrintStream originalOut = System.out;
+   ByteArrayOutputStream bos = new ByteArrayOutputStream();
+
+      
    @BeforeEach
    public void setUp() {
       System.setOut(new PrintStream(bos));
