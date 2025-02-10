@@ -22,7 +22,7 @@ public class PracticeProblem {
 		Scanner s = new Scanner(System.in);
 		System.out.print("Input a number: ");
 		System.out.println(Math.abs(s.nextDouble()));
-		s.nextLine()
+		s.nextLine();
 	}
 
 	public static void q2() {
@@ -30,10 +30,10 @@ public class PracticeProblem {
 		Scanner s = new Scanner(System.in);
 		System.out.print("Input a number: ");
 		double num = s.nextDouble();
-		s.nextLine()
+		s.nextLine();
 		System.out.print("Input another number: ");
 		double num2 = s.nextDouble();
-		s.nextLine()
+		s.nextLine();
 		System.out.println(Math.floor(num/num2));
 		System.out.println(Math.ceil(num/num2));
 	}
@@ -43,7 +43,7 @@ public class PracticeProblem {
 		Scanner s = new Scanner(System.in);
 		System.out.print("Input a number: ");
 		System.out.println(Math.round(Math.sqrt(s.nextDouble())));
-		s.nextLine()
+		s.nextLine();
 	}
 
 	public static void q4() {
@@ -51,10 +51,10 @@ public class PracticeProblem {
 		Scanner s = new Scanner(System.in);
 		System.out.print("Input a number: ");
 		double num = s.nextDouble();
-		s.nextLine()
+		s.nextLine();
 		System.out.print("Input another number: ");
 		double num2 = s.nextDouble();
-		s.nextLine()
+		s.nextLine();
 		System.out.println(Math.pow(num,num2));
 	}
 
@@ -63,13 +63,13 @@ public class PracticeProblem {
 		Scanner s = new Scanner(System.in);
 		System.out.print("Input a number: ");
 		double num = s.nextDouble();
-		s.nextLine()
+		s.nextLine();
 		System.out.print("Input another number: ");
 		double num2 = s.nextDouble();
-		s.nextLine()
+		s.nextLine();
 		System.out.print("Input one more number: ");
 		double num3 = s.nextDouble();
-		s.nextLine()
+		s.nextLine();
 		System.out.println(Math.max(num, Math.max(num2, num3)));
 		System.out.println(Math.min(num, Math.min(num2, num3)));
 	}
