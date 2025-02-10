@@ -100,7 +100,7 @@ public class PracticeProblem {
 		//Write question 5 code here
 		Scanner s = new Scanner(System.in);
 		System.out.print("Input a sentence: ");
-		System.out.println("Your sentecne is " + s.nextLine().length() + " characters long");
+		System.out.println("Your sentence is " + s.nextLine().length() + " characters long");
 	}
 	public static void q10() {
 		//Write question 5 code here
@@ -119,8 +119,8 @@ public class PracticeProblem {
 		Scanner s = new Scanner(System.in);
 		System.out.print("Input a sentence: ");
 		String sentence = s.nextLine();
-		System.out.println(sentence.toUpperCase());
-		System.out.println(sentence.toLowerCase());
+		System.out.println(sentence.toUpperCase().trim());
+		System.out.println(sentence.toLowerCase().trim());
 	}
 
 	public static void q12() {
@@ -128,7 +128,7 @@ public class PracticeProblem {
 		Scanner s = new Scanner(System.in);
 		System.out.print("Input a word: ");
 		String word = s.nextLine();
-		System.out.println(word.substring(0, 5));
+		System.out.println(word.substring(0, 4));
 		System.out.println(word.substring(word.length() - 4, word.length()));
 	}
 	
