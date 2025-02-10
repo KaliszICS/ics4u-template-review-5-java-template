@@ -45,7 +45,7 @@ public class PracticeProblemTest {
       PracticeProblem.q1();
 
       // assertion
-      assertEquals("Input a number: 5\n", bos.toString());
+      assertEquals("Input a number: 5.0\n", bos.toString());
    }
 
    @Test
@@ -80,7 +80,7 @@ public class PracticeProblemTest {
    public void q3_1()
    {
       InputStream originalIn = System.in;
-      String data = "9";
+      String data = "9\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -94,7 +94,7 @@ public class PracticeProblemTest {
    public void q3_2()
    {
       InputStream originalIn = System.in;
-      String data = "6";
+      String data = "6\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -108,7 +108,7 @@ public class PracticeProblemTest {
    public void q3_3()
    {
       InputStream originalIn = System.in;
-      String data = "7";
+      String data = "7\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -150,7 +150,7 @@ public class PracticeProblemTest {
    public void q5_1()
    {
       InputStream originalIn = System.in;
-      String data = "4\n3\n2";
+      String data = "4\n3\n2\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -164,7 +164,7 @@ public class PracticeProblemTest {
    public void q5_2()
    {
       InputStream originalIn = System.in;
-      String data = "4\n3\n2";
+      String data = "4\n3\n2\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -178,7 +178,7 @@ public class PracticeProblemTest {
    public void q5_3()
    {
       InputStream originalIn = System.in;
-      String data = "-2\n3\n2";
+      String data = "-2\n3\n2\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -192,7 +192,7 @@ public class PracticeProblemTest {
    public void q5_4()
    {
       InputStream originalIn = System.in;
-      String data = "4\n-3\n2";
+      String data = "4\n-3\n2\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -206,7 +206,7 @@ public class PracticeProblemTest {
    public void q5_5()
    {
       InputStream originalIn = System.in;
-      String data = "0\n0\n2";
+      String data = "0\n0\n2\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -220,7 +220,7 @@ public class PracticeProblemTest {
    public void q5_6()
    {
       InputStream originalIn = System.in;
-      String data = "1\n1\n1";
+      String data = "1\n1\n1\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -276,7 +276,7 @@ public class PracticeProblemTest {
    public void q7_2()
    {
       InputStream originalIn = System.in;
-      String data = "";
+      String data = "\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -360,7 +360,7 @@ public class PracticeProblemTest {
    public void q8_3()
    {
       InputStream originalIn = System.in;
-      String data = "help me \nl";
+      String data = "help me \n ";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -430,7 +430,7 @@ public class PracticeProblemTest {
    public void q10_2()
    {
       InputStream originalIn = System.in;
-      String data = "Hello There\n \n";
+      String data = "Hello There\n ";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
