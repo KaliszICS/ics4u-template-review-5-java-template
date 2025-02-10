@@ -111,7 +111,7 @@ public class PracticeProblem {
 		String word = s.nextLine();
 		System.out.print("What word would you like to replace it with: ");
 		String word2 = s.nextLine();
-		System.out.println(sentence.replaceAll(word, word2);
+		System.out.println(sentence.replaceAll(word, word2));
 	}
 
 	public static void q11() {
