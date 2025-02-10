@@ -430,7 +430,7 @@ public class PracticeProblemTest {
    public void q10_2()
    {
       InputStream originalIn = System.in;
-      String data = "Hello There\n ";
+      String data = "Hello There\n \n\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
