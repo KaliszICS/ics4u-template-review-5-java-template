@@ -157,7 +157,7 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("Input a number: Input another number: Input one more number: 2.0\n4.0\n", bos.toString());
+      assertEquals("Input a number: Input another number: Input one more number: 4.0\n2.0\n", bos.toString());
    }
 
    @Test
@@ -171,7 +171,7 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("Input a number: Input another number: Input one more number: 2.0\n4.0\n", bos.toString());
+      assertEquals("Input a number: Input another number: Input one more number: 4.0\n2.0\n", bos.toString());
    }
 
    @Test
@@ -185,7 +185,7 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("Input a number: Input another number: Input one more number: -2.0\n3.0\n", bos.toString());
+      assertEquals("Input a number: Input another number: Input one more number: 3.0\n-2.0\n", bos.toString());
    }
 
    @Test
@@ -199,21 +199,21 @@ public class PracticeProblemTest {
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("Input a number: Input another number: Input one more number: -3.0\n4.0\n", bos.toString());
+      assertEquals("Input a number: Input another number: Input one more number: 4.0\n-3.0\n", bos.toString());
    }
 
    @Test
    public void q5_5()
    {
       InputStream originalIn = System.in;
-      String data = "0\n0\n2\n";
+      String data = "0\n0\n2.0\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
       PracticeProblem.q5();
 
       // assertion
-      assertEquals("Input a number: Input another number: Input one more number: 0.0\n2.0\n", bos.toString());
+      assertEquals("Input a number: Input another number: Input one more number: 2.0\n0.0\n", bos.toString());
    }
 
    @Test
