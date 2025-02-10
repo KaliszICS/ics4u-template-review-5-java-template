@@ -388,7 +388,7 @@ public class PracticeProblemTest {
    public void q9_2()
    {
       InputStream originalIn = System.in;
-      String data = "";
+      String data = "\n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
@@ -430,7 +430,7 @@ public class PracticeProblemTest {
    public void q10_2()
    {
       InputStream originalIn = System.in;
-      String data = "Hello There\n ";
+      String data = "Hello There\n \n";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
 
       // action
